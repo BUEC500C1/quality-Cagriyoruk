@@ -1,5 +1,5 @@
 # Test arabic_numerals
-import arabic_numerals
+from arabic_numerals import *
 
 def test_roman():
   assert arabic_to_roman(1) == "I"
@@ -11,3 +11,10 @@ def test_roman():
   assert arabic_to_roman(90) == "XC"
   assert arabic_to_roman(500) == "D"
   assert arabic_to_roman(755) == "DCCLV"
+
+
+def main():
+  print(test_roman())
+
+if __name__ == '__main__':
+  main()
