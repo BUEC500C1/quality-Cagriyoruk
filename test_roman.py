@@ -11,5 +11,4 @@ def test_roman():
   assert arabic_to_roman(90) == "XC"
   assert arabic_to_roman(500) == "D"
   assert arabic_to_roman(755) == "DCCLV"
-  assert arabic_to_roman(1000) == "IIII"
 
