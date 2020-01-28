@@ -5,7 +5,7 @@ def arabic_to_roman(num):
   symbols = [ "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"]
   result = ""
   i = 0
-  if num < 5000:
+  if num > 0 and num < 5000:
     while num > 0:
       for each in range(num//values[i]):
         result += symbols[i]
